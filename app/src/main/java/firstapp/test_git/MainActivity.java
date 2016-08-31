@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private int Sum(){
+        int x = 3;
+        int y = 4;
+        return x+y;
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
